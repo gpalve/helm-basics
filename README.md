@@ -1,6 +1,6 @@
-# Project Name
+# Helm Basics with configuration values.
 
-Description of your project.
+You will learn how to use config values form values.yaml file in your kubectl cluster.Also you will get fair idea of profiles like dev, prod, default and some notes 
 
 ## Prerequisites
 
