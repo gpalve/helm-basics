@@ -1,0 +1,11 @@
+_______________________________________________________________________________________________
+|                                            **Notes**                                         |
+|______________________________________________________________________________________________|
+
+Whatever you write in Notes.txt will be displayed in after release is upgraded or installed.
+
+kubectl patch svc gpalves-helmapp-1 -p '{"spec": {"externalIPs": []}}' -n default --> to remove external ip from that namespace.
+helm install my-first-helm-app .\webapp1\ --values .\webapp1\values.yaml -f .\webapp1\values-prod.yaml -n prod
+
+We can always use port forwarding by 
+kubectl port-forward service/gpalves-helmapp-1 -n default 8080:80

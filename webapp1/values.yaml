@@ -1,0 +1,8 @@
+appName: gpalves-helmapp-1
+namespace: default
+configMap:
+  name: myconfigmapv1.0
+  CUSTOM_HEADER: "App was deployed using values file.."
+image:
+  name: devopsjourney1/mywebapp
+  tag: latest

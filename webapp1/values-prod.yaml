@@ -1,0 +1,4 @@
+namespace: prod
+configMap:
+  CUSTOM_HEADER: "You are in PROD.."
+

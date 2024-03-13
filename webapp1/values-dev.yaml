@@ -1,0 +1,4 @@
+namespace: dev
+configMap:
+  CUSTOM_HEADER: "You are in DEV.."
+
